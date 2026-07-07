@@ -137,12 +137,17 @@ export default function HarmonicTable({
   currentDegree,
 }: Props) {
 
-  const nearest = harmonics.reduce((prev, curr) =>
-    Math.abs(curr-currentDegree) <
-    Math.abs(prev-currentDegree)
-      ? curr
-      : prev
-  );
+//   const nearest = harmonics.reduce((prev, curr) =>
+//     Math.abs(curr-currentDegree) <
+//     Math.abs(prev-currentDegree)
+//       ? curr
+//       : prev
+//   );
+
+const activeDegree =
+  [...harmonics]
+    .reverse()
+    .find((d) => currentDegree >= d) ?? 0;
 
   return (
 
@@ -180,7 +185,8 @@ export default function HarmonicTable({
         ))} */}
         {harmonics.map((degree, index) => {
 
-  const active = degree === nearest;
+//   const active = degree === nearest;
+     const active = degree === activeDegree
 
   return (
 
