@@ -36,11 +36,11 @@ export default function Login() {
       <div className="w-[420px] rounded-3xl border border-cyan-500/20 bg-slate-900 p-10 shadow-2xl">
 
         <h1 className="text-center text-4xl font-bold text-white">
-          HMS GANN DEGREE
+          HMS GANN DEGREE CALCULATOR
         </h1>
 
         <p className="mt-3 text-center text-cyan-400">
-          Equinox Harmonic Cycle Calculator
+          Sun_Earth Cyclic Degree Calculator
         </p>
 
         <button
