@@ -54,11 +54,11 @@ export default function Dashboard() {
           <div className="text-center sm:text-left">
 
             <h1 className="text-2xl font-bold tracking-wide sm:text-3xl">
-              🌌 HMS GANN DEGREE
+              HMS GANN DEGREE CALCULATOR
             </h1>
 
             <p className="mt-1 text-sm text-cyan-400">
-              Equinox Harmonic Cycle Calculator
+                  Sun_Earth Cyclic Degree Calculator
             </p>
 
           </div>

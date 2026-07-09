@@ -111,7 +111,7 @@ export default function ResultCards({
 
         <div className="flex items-center justify-between rounded-lg bg-slate-800 p-4">
           <span className="text-slate-400">
-            ⏳ Elapsed Days
+            ⏳ Total Days to Equinox
           </span>
 
           <span className="text-2xl font-bold text-yellow-400">
@@ -121,7 +121,7 @@ export default function ResultCards({
 
         <div className="flex items-center justify-between rounded-lg bg-slate-800 p-4">
           <span className="text-slate-400">
-            📐 Degree
+            📐 Current Degree
           </span>
 
           <span className="text-2xl font-bold text-cyan-400">
@@ -131,7 +131,7 @@ export default function ResultCards({
 
         <div className="flex items-center justify-between rounded-lg bg-slate-800 p-4">
           <span className="text-slate-400">
-            ✨ Nearest Harmonic
+            ✨ Nearest Imp Degree
           </span>
 
           <span className="text-2xl font-bold text-green-400">
