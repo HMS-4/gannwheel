@@ -5,12 +5,13 @@ import {
 } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBXBsAKRhpNzzShrTjwMRDxHOMvD9tvpg4",
-  authDomain: "hms-gannwheel.firebaseapp.com",
-  projectId: "hms-gannwheel",
-  storageBucket: "hms-gannwheel.firebasestorage.app",
-  messagingSenderId: "1034932061564",
-  appId: "1:1034932061564:web:e184d95e1e287d6abdd0f9",
+  apiKey: "AIzaSyAGujKrzqNCkfOltXXb74xbMKU1-gugFB8",
+  authDomain: "hms-gannwheel-83fe4.firebaseapp.com",
+  projectId: "hms-gannwheel-83fe4",
+  storageBucket: "hms-gannwheel-83fe4.firebasestorage.app",
+  messagingSenderId: "1045738588698",
+  appId: "1:1045738588698:web:493ae9ceae2f661d40dfa3",
+  measurementId: "G-Y5NLVSYJEC"
 };
 
 const app = initializeApp(firebaseConfig);
