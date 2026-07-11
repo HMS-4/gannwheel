@@ -42,21 +42,25 @@ export const allowedEmails = [
   "amitdhruve4@gmail.com",
   "abhays9096@gmail.com",
   "bobbyptanna@gmail.com",
+  "sharadtcs1@gmail.com",
+  "arnavsingh0770@gmail.com",
+
+   //10-07-2026 to 09-07-2027 surat//
+"punitpatel3m@gmail.com",
+"hetsavaliya12@gmail.com",
+"advajaypadhiyar1001@gmail.com",
+"patel22984@gmail.com",
+"jasmin.6984@gmail.com",
+"deepshah2403@gmail.com",
+"nilayjasani77@gmail.com",
+"savaniprashant78@gmail.com",
+"gaurangshah1234@gmail.com",
+"gauravmishra5470@gmail.com",
+"komalpatel2010@gmail.com",
+"bipinramani04@gmail.com",
+"patelmayur199515@gmail.com",
+"dhavalv64@gmail.com",
+"scmalaviya1907@gmail.com",
 ];
-//10-07-2026 to 09-07-2027 surat//
-"punitpatel3m@gmail.com"
-"hetsavaliya12@gmail.com"
-"advajaypadhiyar1001@gmail.com"
-"patel22984@gmail.com"
-"jasmin.6984@gmail.com"
-"deepshah2403@gmail.com"
-"nilayjasani77@gmail.com"
-"savaniprashant78@gmail.com"
-"gaurangshah1234@gmail.com"
-"gauravmishra5470@gmail.com"
-"komalpatel2010@gmail.com"
-"bipinramani04@gmail.com"
-"patelmayur199515@gmail.com"
-"dhavalv64@gmail.com"
-"scmalaviya1907@gmail.com"
+
 
