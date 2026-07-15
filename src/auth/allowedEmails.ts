@@ -11,6 +11,7 @@ export const allowedEmails = [
 " jayeshagnihotri789@gmail.com",
 "indore@harshubh.com",
 
+
   // 10/07/2026 09/07/27"
   "astro@harshubh.com",
   "roopaammanagi@gmail.com",
