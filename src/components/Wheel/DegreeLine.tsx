@@ -38,7 +38,7 @@ export default function DegreeLine({ degree }: Props) {
         y1={center}
         x2={endX}
         y2={endY}
-        stroke="#22d3ee"
+        stroke="#5ee411"
         strokeWidth="10"
         opacity="0.18"
         strokeLinecap="round"

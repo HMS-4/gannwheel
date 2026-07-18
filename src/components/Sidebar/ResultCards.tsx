@@ -131,7 +131,7 @@ export default function ResultCards({
 
         <div className="flex items-center justify-between rounded-lg bg-slate-800 p-4">
           <span className="text-slate-400">
-            ✨ Nearest Imp Degree
+            ✨ Next Nearest Imp Degree
           </span>
 
           <span className="text-2xl font-bold text-green-400">
