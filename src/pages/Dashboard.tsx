@@ -10,29 +10,38 @@ import { calculateDegree } from "../utils/calculateDegree";
 
 export default function Dashboard() {
   const [equinox, setEquinox] = useState("");
-  const [current, setCurrent] = useState("");
+  const today = new Date().toISOString().split("T")[0];
+
+const [current, setCurrent] = useState(today);
 
   const [elapsed, setElapsed] = useState(0);
   const [degree, setDegree] = useState(0);
   const [harmonic, setHarmonic] = useState(0);
 
-  const handleCalculate = () => {
-    if (!equinox || !current) {
-      alert("Please select both dates.");
-      return;
-    }
+const handleCalculate = () => {
+  if (!equinox || !current) {
+    alert("Please select both dates.");
+    return;
+  }
 
-    const result = calculateDegree(equinox, current);
+  const result = calculateDegree(equinox, current);
 
-    setElapsed(result.elapsedDays);
-    setDegree(result.degree);
+  setElapsed(result.elapsedDays);
+  setDegree(result.degree);
 
-    const harmonicStep = 11.25;
+  const importantDegrees = [
+    0, 11.25, 22.5, 33.75, 45, 56.25, 60, 67.5, 78.75, 90,
+    101.25, 112.5, 120, 123.75, 135, 146.25, 157.5,
+    168.75, 180, 191.25, 202.5, 213.75, 225, 236.25,
+    240, 247.5, 258.75, 270, 281.25, 292.5, 300,
+    303.75, 315, 326.25, 337.5, 348.75
+  ];
 
-    setHarmonic(
-      Math.round(result.degree / harmonicStep) * harmonicStep
-    );
-  };
+  const nextImportantDegree =
+    importantDegrees.find((d) => d >= result.degree) ?? 0;
+
+  setHarmonic(nextImportantDegree);
+};
 
   const handleLogout = async () => {
     try {
