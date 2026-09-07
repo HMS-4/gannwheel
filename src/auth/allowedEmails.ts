@@ -122,7 +122,7 @@ export const allowedEmails = [
  "rupamdholakiya6@gmail.com",
 "drshrikantjadhavofficial@gmail.com",
 
-//10-08-2026 to 09-08-2027 Master class//
+//04-09-2026 to 03-09-2027 Master class//
 "dani.investments@gmail.com",
 "rishisharma6376@gmail.com",
 "vishalkhichi0761@gmail.com",
