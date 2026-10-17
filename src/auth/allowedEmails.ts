@@ -179,7 +179,7 @@ export const allowedEmails = [
 "ayazchini7862@gmail.com",
 "starsubrata.sd@gmail.com",
 "sushanta.sd62@gmail.com",
-
+"sumitjzb39@gmail.com",
 
 ];
 
