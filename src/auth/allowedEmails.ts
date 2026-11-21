@@ -174,7 +174,7 @@ export const allowedEmails = [
 "sushanta.sd62@gmail.com",
 "sumitjzb39@gmail.com",
 
-//Combo  4-in-1 21 11 2026//
+//Combo Masterclass+Shikhar   4-in-1 21 11 2026//
 
 "mesamadhan43@gmail.com",
 "hchavan96@gmail.com",
