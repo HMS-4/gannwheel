@@ -661,6 +661,7 @@ export const allowedEmails = [
 "lalitchetan.platinum@gmail.com",
 "nariyaankur@gmail.com",
 "bansal02feb@gmail.com",
+"surerakhecha@gmail.com",
 
 ];
 
