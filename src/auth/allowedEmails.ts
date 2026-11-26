@@ -378,7 +378,6 @@ export const allowedEmails = [
 "dineshpatel3836@gmail.com",
 "rajuvaghela1486@gmail.com",
 "dhanuka.alok@gmail.com",
-"yogo_175@yahoo.co.in",
 "patelhardik21@gmail.com",
 "rishabhnagar20092001@gmail.com",
 "ridhichugh14@gmail.com",
