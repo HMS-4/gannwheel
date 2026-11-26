@@ -500,7 +500,7 @@ export const allowedEmails = [
 "shanugupt3108@gmail.com",
 "sahilpawar1541@gmail.com",
 "jitentel8979@gmail.com",
-"sagarkokkula@gmail.com",
+
 "romeymallik@gmail.com",
 "sagarwangikar2014@gmail.com",
 "poojatak16@gmail.com",
@@ -665,7 +665,10 @@ export const allowedEmails = [
 "bimal.khakhariya19@gmail.com",
 "singhsagar070@gmail.com",
 "dhruv090407@gmail.com",
-"m8085838281@gmail.com"
+"m8085838281@gmail.com",
+"sagarkokkula@gmail.com",
+"Kaji.bhaumik@gmail.com",
+
 
 ];
 
