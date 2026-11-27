@@ -270,7 +270,7 @@ export const allowedEmails = [
 "galaxyservicessurat@gmail.com",
 "carishi21@gmail.com",
 "askkishan@gmail.com",
-"chm25478@gmail.com",
+"charshad.mchauhan02@gmail.com",
 "prashantbaheti18@gmail.com",
 "shubham1994adlakha@gmail.com",
 "siddhesh.w32@gmail.com",
